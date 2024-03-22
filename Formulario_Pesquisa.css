@@ -1,6 +1,8 @@
 body{
-    background-image: url(https://raw.githubusercontent.com/LBarreTs/Projetos/c2d59579889db5ba3c361cfd3d3b5422b09be8a8/background-image_source-4280758_1280.jpg);
-    padding: 30px;
+    background-image: url("https://raw.githubusercontent.com/LBarreTs/Projetos/c2d59579889db5ba3c361cfd3d3b5422b09be8a8/background-image_source-4280758_1280.jpg");
+    padding: 80px;
+    image-resolution: 10px;
+    margin: auto;
 }
 
 h1{
@@ -17,12 +19,22 @@ p{
     margin: 0.5em;
 }
 
+.menu{
+    width: 70%;
+    background-color: #080433;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+    max-width: 50%;
+}
+
 form {
     width: 30vw;
     max-width: 100px;
     min-width: 50px;
     margin: 4rem;
     padding-bottom: 1em;
+    color: aliceblue;
   }
 
 fieldset{
