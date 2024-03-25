@@ -1,48 +1,60 @@
-body{
-    background-image: url("https://raw.githubusercontent.com/LBarreTs/Projetos/c2d59579889db5ba3c361cfd3d3b5422b09be8a8/background-image_source-4280758_1280.jpg");
-    padding: 30px;
-    image-resolution: 100%;
-    margin: auto;
-}
-
-h1{
-    color: color-mix(in srgb-linear, red 100%, yellow 50%);
-    text-align: center;
-    font-size: 35px;
-    font-family: serif;
-    margin: -3.5rem;
-    margin-top: 1em;
-}
-
-p{
-    color:#fff;
-    text-align: center;
-    font-size: 25px;
-    font-family: Verdana;
-    font-style: italic;
-    margin: 2.5em;
-}
-
-.menu{
-    width: 70%;
-    background-color: #080433;
-    margin-left: auto;
-    margin-right: auto;
-    padding: -20px;
-    max-width: 50%;
-}
-
-form {
-    width: 30vw;
-    max-width: 100px;
-    min-width: 50px;
-    margin: 4rem;
-    padding-bottom: 1em;
-    color: aliceblue;
-  }
-
-fieldset{
-    border:10px;
-    padding: 3rem;
-    border-bottom: 5px;
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Formulario_Pesquisa.css">
+        <title>freeCodeCamp</title>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>      
+    </head>
+    <body>
+        <div class="menu">
+        <form id="survey-form">
+            <fieldset>
+            <label id="name-label">Name <input id="name" placeholder="Enter your Name" required/></label>
+            <label id="email-label">Email <input id="email" type="email" placeholder="Enter your Email" required/></label>
+            <label id="number-label">Age(optional) <input id="number" type="number" min="10" max="99" placeholder="0"/></label>
+            </fieldset>
+            <fieldset>
+            Which option best describes your current role?
+            <select id="dropdown">
+                <option value="Select current hole">Select current hole</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Leaner">Full Time Leaner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option valeu="Other">Other</option>
+            </fieldset>
+            <fieldset>
+            </select>
+            Would you recommend freeCodeCamp to a friend?
+            <input type="radio" value="1" name="Definitely" optional>Definitely</input>
+            <input type="radio" value="2" name="Maybe" optional>Maybe</input>
+            <input type="radio" value="3" name="Not sure" optional>Not sure</input>
+            </fieldset>
+            <fieldset>
+            What is your favorite feature of freeCodeCamp?
+            <select>
+                <option value="0">Select an Option</option>
+                <option value="1">Challenges</option>
+                <option value="2">Projects</option>
+                <option value="3">Community</option>
+                <option value="4">Open Source</option>
+            </select>
+        What would you like to see improved? (Check all that apply)
+            <input type="buttom">Front-end Projects</input>
+            <input type="checkbox">Back-end Projects</input>
+            <input type="checkbox">Data Visualization</input>
+            <input type="checkbox">Challenges</input>
+            <input type="checkbox">Open Source Community</input>
+            <input type="checkbox">Gitter help rooms</input>
+            <input type="checkbox">Videos</input>
+            <input type="checkbox">City Meetups</input>
+            <input type="checkbox">Wiki</input>
+            <input type="checkbox">Forum</input>
+            <input type="checkbox">Additional Courses</input>
+            </fieldset>
+         </form>
+        </div>
+    </body>
+</html>
