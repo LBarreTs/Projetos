@@ -10,12 +10,11 @@
     <body>
         <div class="menu">
         <form id="survey-form">
-            <fieldset>
+            
             <label id="name-label">Name <input id="name" placeholder="Enter your Name" required/></label>
             <label id="email-label">Email <input id="email" type="email" placeholder="Enter your Email" required/></label>
-            <label id="number-label">Age(optional) <input id="number" type="number" min="10" max="99" placeholder="0"/></label>
-            </fieldset>
-            <fieldset>
+            <label id="number-label">Age(optional)</label><input id="number" type="number" min="10" max="99" placeholder="0"/>
+        <div class="form-group">
             Which option best describes your current role?
             <select id="dropdown">
                 <option value="Select current hole">Select current hole</option>
@@ -24,15 +23,14 @@
                 <option value="Full Time Leaner">Full Time Leaner</option>
                 <option value="Prefer not to say">Prefer not to say</option>
                 <option valeu="Other">Other</option>
-            </fieldset>
-            <fieldset>
             </select>
+        </div>
+
             Would you recommend freeCodeCamp to a friend?
             <input type="radio" value="1" name="Definitely" optional>Definitely</input>
             <input type="radio" value="2" name="Maybe" optional>Maybe</input>
             <input type="radio" value="3" name="Not sure" optional>Not sure</input>
-            </fieldset>
-            <fieldset>
+            
             What is your favorite feature of freeCodeCamp?
             <select>
                 <option value="0">Select an Option</option>
@@ -41,6 +39,7 @@
                 <option value="3">Community</option>
                 <option value="4">Open Source</option>
             </select>
+            
         What would you like to see improved? (Check all that apply)
             <input type="buttom">Front-end Projects</input>
             <input type="checkbox">Back-end Projects</input>
