@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <main id="main">
+     <h1 id="title">Jesus Yeshua (Jesus)
+     <figure id="img-div">
+      <img id="image">
+      </img>
+      <figcaption id="img-caption">Foto gerada por inteligência artificial "ChatGPT".</figcaption>
+     </figure>
+    </main>
+  <body>
+</html> 
